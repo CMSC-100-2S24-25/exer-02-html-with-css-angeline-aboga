@@ -5,12 +5,62 @@
     <title>Trisha Angeline R. Aboga</title>
   </head>
   <style>
+    body {
+        font-family: 'Courier New', Courier, monospace;
+    }
+
     .pic-name {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
     }
+
+    .bio-skill {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: space-around;
+        gap: 12px;
+    }
+
+    .biography {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        text-align: left;
+        flex: 1.5 1 0;
+    }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* align-items: center; */
+        text-align: left;
+        flex: 1 1 0;
+    }   
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center; 
+    }
+
+    .project-desc {
+        font-size: large;
+        font-style: italic;
+    }
+
+    .contribution {
+        display: inline-block;
+        max-width: 50%;
+    }
+
+
   </style>
 
   <img>
@@ -20,48 +70,66 @@
         <h1>Trisha Angeline R. Aboga</h1>
     </div>
 
-    <h2>Autobiography</h2>
-        <p>Currently a BSCS undergrad in UPLB, I am just floating my way through this thing called life. 
-        I usually say I have six raisons d'être which are Shoujo☆Kageki Revue Starlight, BanG Dream!, Keyakizaka46, D4DJ, all kinds of sapphic media, and music. 
-        My other main interest is playing video games from any genre as long as I find them interesting. 
-        I'm currently mainly playing League of Legends: Wild Rift and Free Fire.</p>
+    <div class="bio-skill">
+        <div class="biography">
+            <h2>Autobiography</h2>
+                <br> + Currently a BSCS undergrad in UPLB, I am just floating my way through this thing called life. </br>
+                <br> + I usually say I have six raisons d'être which are Shoujo☆Kageki Revue Starlight, BanG Dream!, Keyakizaka46, D4DJ, all kinds of sapphic media, and music.</br> 
+                <br> + My other main interest is playing video games from any genre as long as I find them interesting. </br>
+                <br> + I'm currently mainly playing League of Legends: Wild Rift and Free Fire.</br>
+        </div>
 
-    <h2>Skills</h2>
-        <p> + programming and debugging algorithms and applications using PLs such as Python, C, Java, and Dart </p>
-        <p> + creating and managing databases using SQL and MariaDB </p>
+        <div class="skills">
+            <h2>Skills</h2>
+                <br> + programming and debugging algorithms and applications using PLs such as Python, C, Java, and Dart </br>
+                <br> + creating and managing databases using SQL and MariaDB </br>
+        </div>
+    </div>
 
-    <h2>Previous Projects</h2>
-    <!-- title -->
-    <!-- year -->
-    <!-- brief desc -->
-    <!-- contribution -->
+    <div class="projects">
+        <h2>Previous Projects</h2>
 
-    <h3>TRIOOF LOLCODE INTERPRETER</h3>
-        <h5> 2024 </h5>
-        <h4> interpreter for LOLCODE </h4>
-        <p> - created a second prototype for the lexical, syntax, and semantic analyzers of the project, some of which were integrated or used to debug the final project </p>
-
-
-    <h3>OKBAJAN</h3>
-        <h5> 2024 </h5>
-        <h4> food item and review information system </h4>
-        <p> - helped create the entity relationship diagram (ERD) for the project </p>
-        <p> - helped turned the ERD into appropriate relational tables </p>
-        <p> - created queries and functions utilized in the project </p>
-
-
-    <h3>ELBIDONATE</h3>
-        <h5> 2024 </h5>
-        <h4> mobile donation application </h4>
-        <p> - created the donor’s view of the application which includes a homepage, the donation form, and profile of the donor </p>
+            <h3>TRIOOF LOLCODE INTERPRETER (2024)</h3>
+                <img src="trioof.jpg" width="360"> 
+                <div class="project-desc"> 
+                    interpreter for LOLCODE 
+                </div>
+                <div class="contribution"> 
+                    - created a second prototype for the lexical, syntax, and semantic analyzers of the project, some of which were integrated or used to debug the final project 
+                </div>
 
 
-    <h3>SAVE THE TROLLS: UNITY IN HARMONY</h3>
-        <h5> 2023 </h5>
-        <h4> desktop rhythm game based on the Trolls franchise </h4>
-        <p> - conceptualized and designed the main game play and objects </p>
-        <p> - programmed most of the algorithms and functions for the interaction of objects in the rhythm game </p>
+            <h3>OKBAJAN (2024)</h3>
+                <img src="okbajan.jpg" width="240"> 
+                <div class="project-desc"> 
+                    food item and review information system 
+                </div>
+                <div class="contribution"> 
+                    - helped create the entity relationship diagram (ERD) for the project
+                    <br> - helped turned the ERD into appropriate relational tables </br>
+                    <br> - created queries and functions utilized in the project </br>
+                </div>
 
+            <h3>ELBIDONATE (2024)</h3>
+                <img src="elbidonate.jpg" width="240"> 
+                <div class="project-desc"> 
+                    mobile donation application 
+                </div>
+                <div class="contribution"> 
+                    - created the donor’s view of the application which includes a homepage, the donation form, and profile of the donor 
+                </div>
+
+
+            <h3>SAVE THE TROLLS: UNITY IN HARMONY (2023)</h3>
+                <img src="trolls.jpg" width="360"> 
+                <div class="project-desc"> 
+                    desktop rhythm game based on the Trolls franchise 
+                </div>
+                <div class="contribution"> 
+                    - conceptualized and designed the main game play and objects
+                    <br> - programmed most of the algorithms and functions for the interaction of objects in the rhythm game </br>
+                </div>
+    </div>
 
 
 

@@ -22,3 +22,8 @@ While we may have HTML and CSS syntaxes to guide us, it is ultimately up to us o
 # References:
 
 - https://www.w3schools.com/howto/howto_css_image_center.asp
+- https://www.w3schools.com/cssref/css_websafe_fonts.php
+- https://www.w3schools.com/css/css_align.asp
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Controlling_ratios_of_flex_items_along_the_main_axis
+- https://www.geeksforgeeks.org/how-to-set-space-between-the-flexbox/
+- 
